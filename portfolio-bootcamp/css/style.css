@@ -1,0 +1,280 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+/*custom styles */
+
+#intro {
+  padding-top: 0;
+  background: #8A8A89 url("../images/header.jpg") top center repeat-y;
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
+}
+
+.intro-section-text {
+  padding-top: 20%;
+  color: #f7f7f7;
+}
+
+.intro-section h1 {
+  font-size: 7em;
+  padding-bottom: 10px;
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+  border-bottom: 4px solid #57BC90;
+}
+
+.intro-section p {
+  font-size: 1.1em;
+  text-align: center;
+  margin-right: 28%;
+}
+
+.intro-section .btn {
+  margin-top: 2%;
+}
+
+
+/*about */
+
+#about {
+  font-family: 'Playfair Display', serif;
+  background: #eee;
+}
+
+#about h1 {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3.5em;
+  border-bottom: 3px solid black ;
+  margin-bottom: 50px;
+  padding-bottom: 15px;
+}
+
+.about-section-info {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+.about-section-info img {
+  border-radius: 20px;
+  width: 40%;
+  height: 560px;
+  float: left;
+}
+
+.about-section-info img:hover {
+  opacity: .7;
+
+  transition: .8s;
+}
+
+.about-section-info p {
+  width: 55%;
+  font-size: 1.2em;
+  float: left;
+  margin-left: 5%;
+  line-height: 32px;
+  letter-spacing: 1px;
+  padding:  0 10px;
+
+}
+
+
+/*recent adventures */
+
+#adventures h1 {
+  margin-left: 6%;
+  font-size: 3.5em;
+  text-align: left;
+  width: 22%;
+  border-bottom: 4px solid black;
+  padding-bottom: 10px;
+}
+
+.adventures-images {
+  background: red;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.adventures-images img {
+  width: 33%;
+  height: 10%;
+  float: left;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.adventures-images img:hover {
+  opacity: .8;
+  border-radius: 15px;
+  transition: .6s;
+}
+
+.image-box {
+  background: #8A8A89 url("../images/travel1.jpg") top center repeat-y;
+  background-size: cover;
+  width: 33%;
+  height: 420px;
+}
+
+
+/*portfolio*/
+#portfolio {
+  background: #eee;
+}
+#portfolio h1 {
+  margin-left: 6%;
+  font-size: 3.5em;
+  text-align: left;
+  width: 22%;
+  border-bottom: 4px solid black;
+  padding-bottom: 10px;
+}
+
+.portfolio-slide {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.madrid{
+  background: #8A8A89 url("../images/travel1.jpg") top center repeat-y;
+  background-size: cover;
+  width: 30%;
+  height: 280px;
+}
+
+/*carousel */
+
+.carousel-inner > .item > img {
+  width:100%;
+  height:780px;
+}
+.carousel-caption{
+  background: black ;
+  opacity: .7;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+
+.carousel-caption ul li{
+  list-style: none;
+}
+.carousel-caption-text{
+  width: 50%;
+  float: left;
+}
+.carousel-caption-text-1{
+  width: 50%;
+  float: right;
+}
+
+/*skills */
+
+#skills h1{
+  margin-left: 6%;
+  font-size: 3.5em;
+  text-align: left;
+  width: 22%;
+  border-bottom: 4px solid black;
+  padding-bottom: 10px;
+}
+
+.skills-showcase{
+    /*background: red; */
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 10px;
+}
+
+.skill-block{
+    background: #F7F7F7;
+    width: 30%;
+    padding: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.skill-block:hover{
+  opacity: .7;
+}
+
+.skill-block img{
+    width: 25%;
+    height: 150px;
+    float: left;
+    margin-bottom: 5px;
+}
+.skill-block p{
+    width: 65%;
+    float: left;
+    font-size: 2.3em;
+    text-align: center;
+}
+
+
+/*contact */
+#contact{
+  color: #FBFBFB;
+  background: #090909;
+}
+.social-media{
+  width: 50%;
+  font-size: 1.1em;
+  margin-left: 50px;
+}
+.social-media ul{
+  margin: 0;
+  padding: 0;
+}
+.social-media ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.address{
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  font-size: 5.3em;
+  width: 50%;
+  line-height: 60px;
+  position: relative;
+  padding: 10px 0;
+}
+.contact-message{
+  width: 45%;
+  float: right;
+  margin-right: 50px;
+  padding: 10px;
+  font-size: 2.3em;
+  line-height: 50px;
+}
+
+.contact-map{
+  margin-left: 50px;
+}
+
+footer{
+  text-align: center;
+  font-size: 1.1em;
+  height: 8%;
+  padding-top: 25px;
+}
